@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">Jason Xu</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a> <!-- Corrected href to match the id -->
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, I'm Jason</h1>
+        <h3>I'm a Unreal Tools Developer</h3>
+        <p>who's friends with Jessica Wei who says I am boring... </p>
+        
+        <div class="social-icons">
+          <a href="https://github.com/sonaj000"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/jason-xu-b7b70322b/"><i class="bx bxl-linkedin-square"></i></a>
+        </div>
+
+        <div class="btn-group">
+          <a href="https://sonaj000.itch.io/" class="btn">My Itch.io</a>
+          <a href="mailto:jasonxu20000505@gmail.com" class="btn">Contact</a>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <img src="extra.png" alt="" />
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="image.png" alt="">
+      </div>
+
+      <div class="about-content">
+        <h2>About <span>Me</span></h2>
+        <p>
+          Hi I'm Jason. I'm a current PhD student almost former at this point... 
+          My interests involve wondering why Jessica Wei won't make Awei Studios a thing and I cry sometimes a lot.
+        </p>
+      </div>
+    </section> <!-- Properly closed this section -->
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+      <h2 class="heading">Projects</h2>
+
+      <div class="projects-box">
+
+        <div class="project-card">
+          <img src="Viz.png" alt="Project Image">
+          <h3>Project Unreal Go-Explore</h3>
+          <p>Go-explore is something amazing and cool with this nice thing to do.</p>
+          <!-- Replace "#" with the actual URL of the project -->
+          <a href="https://sonaj000.github.io/Explore_Unreal/" class="btn">Review Project</a>
+        </div>
+
+        <div class="project-card">
+          <img src="Viz.png" alt="">
+
+          <h3>Project Unreal Go-Explore</h3>
+          <p>Go-explore is something amazing and cool with this nice thing to do.</p>
+          <div class="btn">Review Project</div>
+        </div>
+
+        <div class="project-card">
+          <img src="Viz.png" alt="">
+
+          <h3>Project Unreal Go-Explore</h3>
+          <p>Go-explore is something amazing and cool with this nice thing to do.</p>
+          <div class="btn">Review Project</div>
+        </div>
+
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
